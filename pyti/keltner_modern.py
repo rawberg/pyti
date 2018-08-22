@@ -69,6 +69,6 @@ def lower_band(close_data, high_data, low_data, period, exp=True, **kwargs):
     LB = CB - BW
     """
     cb = center_band(close_data, high_data, low_data, period, exp)
-    bw = talib.ATR(np.array(high_data), np.array(low_data), np.array(close_data), period - 1) * kwargs.get("atrs", 2Ø)
+    bw = talib.ATR(np.array(high_data), np.array(low_data), np.array(close_data), period - 1) * kwargs.get("atrs", 2)
     lb = cb - bw
     return lb

@@ -4,13 +4,13 @@ from setuptools import setup, find_packages
 setup(
     name="pyti",
 
-    version='0.2.2',
+    version='0.2.3',
 
     description='Technical Indicator Library',
     long_description="This library contains various financial technical "
                      "indicators that can be used to analyze financial data.",
 
-    url='https://github.com/kylejusticemagnuson/pyti',
+    url='https://github.com/rawberg/pyti',
 
     author='Kyle Justice Magnuson',
     author_email='kyle@topsteptrader.com',
